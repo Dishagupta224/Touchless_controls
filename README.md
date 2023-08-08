@@ -14,7 +14,7 @@ Recent laptops and computers consist of mouses and keyboards which the user uses
 Wired gloves to give input to the computer about the position and rotation of the hands using magnetic or inertial tracking devices. These gloves can detect finger bending and other gestures of the hands. The input is fed to the software which is translated for the computer to understand. This may seem bulky for normal users but a good option for the gamers who want real-time experiences.
 Gesture based controllers are used as an extension to user’s body. These record the movements and which are send to the software which can detect the meaning of the gesture.
 
-<h3>**Problem Statement**</h3>
+<h3>Problem Statement</h3>
 	The demand for the touch less interaction with the computer has increased due to the pandemic but not been addressed completely. Touch less form of control of computer is the need of the hour. 
 	The need to reduce the employment of physical devices (like mouse) to save time and effort.
 	These hardware devices are not as ecologically benign as they seem, therefore they do have some restrictions.
@@ -24,27 +24,29 @@ Gesture based controllers are used as an extension to user’s body. These recor
 The proposed model uses technologies like OpenCV and MediaPipes for recognizing user images which are being inputted from the camera which is the input sensor. This image is then processed using MediaPipes and OpenCV. The proposed model has features like zooming images, controlling cursor, performing left-click, right-click, scrolling, changing windows and copy-paste. The user can control the zoom-in and the zoom-out feature by making a “L-shaped” gesture using both of his hand. The image can be expanded by distancing your both palms and it can be compressed by bringing your palms closed. The feature of controlling the cursor could be performed by moving the index finger. We can perform left-click by using a combination of index finger and the middle finger. The right-click by using a combination of index finger, middle finger and the ring finger. We can also perform tasks like opening new tabs, scrolling, copy-paste and typing.
 
 <h3>Proposed Solutions</h3>
-	Creating a computer vision-based system for identifying, recording, and comprehending gestures is the aim of this project.
-	Using simple web camera and laptop as hardware and human gestures to control the screen to reduce the cost.
-	Using python libraries to achieve basic functionalities just by hand gestures.
+•	Creating a computer vision-based system for identifying, recording, and comprehending gestures is the aim of this project.
+•	Using simple web camera and laptop as hardware and human gestures to control the screen to reduce the cost.
+•	Using python libraries to achieve basic functionalities just by hand gestures.
 
-<h3>**Components of the Model**</h3>
-**Hardware:**
-Laptop/Computer
-Web camera
 
-**Software:**
-Python
-PyCharm
-OpenCV
-Mediapipes
+<h3>Components of the Model</h3>
+Hardware:
+•Laptop/Computer
+•Web camera
+
+Software:
+•Python
+•PyCharm
+•OpenCV
+•Mediapipes
 
 <h3>Description of the components</h3>
-**Open CV**
+Open CV
 Open CV is an open- source library which is a tool for image processing and performing computer vision tasks. It has around 2500 optimized algorithms. It is used for face detection, objection tracking, landmark detection, etc. 
 Media Pipe
 Media Pipe is a cross-platform pipeline framework to build custom machine learning solutions for live and streaming media. In reference for hand detection, we can use palm detection model of Media Pipe pipeline which will return an oriented hand bounding box from the full image.
-**Google Vision API vs OpenCV?**
+
+Google Vision API vs OpenCV?
 •	Although Google Cloud Vision API easier to use, OpenCV is easier to set up and administer. 
 •	According to the reviewers OpenCV fulfills the business needs better than Google Cloud Vision API.
 •	OpenCV’s feature updates and roadmaps are more preferred than Google Cloud Vision API.
@@ -52,42 +54,46 @@ Media Pipe is a cross-platform pipeline framework to build custom machine learni
 
 <h3>Block Diagram</h3>
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/055306e6-045d-4cee-b6a8-8c7dd0631afd)
+![image](https://github.com/Dishagupta224/test11/assets/75116292/055306e6-045d-4cee-b6a8-8c7dd0631afd){:height="300px" width="100px"}.
 
 <h3>Working Mechanism</h3>
 A framework called MediaPipe is used to create machine learning pipelines for processing time-series data, such as audio and video. The desktop/server, Android, iOS, and embedded devices like the Raspberry Pi and Jetson Nano all support this cross-platform framework. A graph is the name of the MediaPipe perception pipeline. Take the first option, Hands, as an example. We input a stream of photographs, and the output includes hand-rendered landmarks on the images.  The block diagram above represents the MediaPipe hand graph. A collection of programming functions called OpenCV (Open-Source Computer Vision) is primarily focused on real-time computer vision. It is a library used for image processing, to put it simply. It is mostly used for all operations involving images. Using OpenCV we are performing tasks like reading and writing on the images.
 
 <h3>Flow Chart</h3>
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/e683ecb9-134c-4a9b-81b4-29e5d306d14b) {:height="100px" width="100px"}.
+![image](https://github.com/Dishagupta224/test11/assets/75116292/e683ecb9-134c-4a9b-81b4-29e5d306d14b){:height="100px" width="100px"}.
 
 <h3>Output Screenshots</h3>
 
 ![image](https://github.com/Dishagupta224/test11/assets/75116292/3f4538b7-a0c4-463f-b4f2-4266e8276a8d){:height="100px" width="100px"}.
+
 Hand Detection
 
 ![image](https://github.com/Dishagupta224/test11/assets/75116292/5f18b631-4caa-4374-82bb-64ed250d3695){:height="100px" width="100px"}.
+
 Controlling Cursor
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/e44f4969-dc95-45c3-b7a8-dee903387b36)
+![image](https://github.com/Dishagupta224/test11/assets/75116292/e44f4969-dc95-45c3-b7a8-dee903387b36){:height="100px" width="100px"}.
 
 Left-Click
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/f8d9661b-bcd3-4808-94f8-f8efa21b3ce7)
+![image](https://github.com/Dishagupta224/test11/assets/75116292/f8d9661b-bcd3-4808-94f8-f8efa21b3ce7){:height="100px" width="100px"}.
 
 Right-Click
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/8345f5d4-a017-42ad-bd1d-d05d0fc8c09d)
+![image](https://github.com/Dishagupta224/test11/assets/75116292/8345f5d4-a017-42ad-bd1d-d05d0fc8c09d){:height="100px" width="100px"}.
 
 Image Detection
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/da0f4a13-664d-48d6-8225-2854dda559ec)
+![image](https://github.com/Dishagupta224/test11/assets/75116292/da0f4a13-664d-48d6-8225-2854dda559ec){:height="100px" width="100px"}.
 
 Palm Detection
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/daaf7ff5-c7a7-43ad-a3c5-4ae5d514ef22)
+![image](https://github.com/Dishagupta224/test11/assets/75116292/daaf7ff5-c7a7-43ad-a3c5-4ae5d514ef22){:height="100px" width="100px"}.
+
 Zoom-in
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/17d7355d-42ec-4ad4-b59c-f4dfdb35a8e0)
+![image](https://github.com/Dishagupta224/test11/assets/75116292/17d7355d-42ec-4ad4-b59c-f4dfdb35a8e0){:height="100px" width="100px"}.
+
 Zoom-out
 
