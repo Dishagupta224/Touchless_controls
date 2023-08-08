@@ -57,47 +57,45 @@ Google Vision API vs OpenCV?
 •	Google Cloud Vision API rates 4.1/5 stars with 22 reviews. By contrast, OpenCV rates 4.5/5 stars with 39 reviews.
 
 <h3>Block Diagram</h3>
-
-![image](https://github.com/Dishagupta224/test11/assets/75116292/055306e6-045d-4cee-b6a8-8c7dd0631afd){:height="300px" width="100px"}
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/055306e6-045d-4cee-b6a8-8c7dd0631afd" width=50% height=50%>
 
 <h3>Working Mechanism</h3>
 A framework called MediaPipe is used to create machine learning pipelines for processing time-series data, such as audio and video. The desktop/server, Android, iOS, and embedded devices like the Raspberry Pi and Jetson Nano all support this cross-platform framework. A graph is the name of the MediaPipe perception pipeline. Take the first option, Hands, as an example. We input a stream of photographs, and the output includes hand-rendered landmarks on the images.  The block diagram above represents the MediaPipe hand graph. A collection of programming functions called OpenCV (Open-Source Computer Vision) is primarily focused on real-time computer vision. It is a library used for image processing, to put it simply. It is mostly used for all operations involving images. Using OpenCV we are performing tasks like reading and writing on the images.
 
 <h3>Flow Chart</h3>
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/e683ecb9-134c-4a9b-81b4-29e5d306d14b" width=50% height=50%>
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/e683ecb9-134c-4a9b-81b4-29e5d306d14b) {height="100px" width="100px"}
 
 <h3>Output Screenshots</h3>
-
-![image](https://github.com/Dishagupta224/test11/assets/75116292/3f4538b7-a0c4-463f-b4f2-4266e8276a8d) {:height="100px" width="100px"}.
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/3f4538b7-a0c4-463f-b4f2-4266e8276a8d" width=50% height=50%>
 
 Hand Detection
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/5f18b631-4caa-4374-82bb-64ed250d3695){:height="100px" width="100px"}.
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/5f18b631-4caa-4374-82bb-64ed250d3695" width=50% height=50%>
 
 Controlling Cursor
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/e44f4969-dc95-45c3-b7a8-dee903387b36){:height="100px" width="100px"}.
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/e44f4969-dc95-45c3-b7a8-dee903387b36" width=50% height=50%>
 
 Left-Click
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/f8d9661b-bcd3-4808-94f8-f8efa21b3ce7){:height="100px" width="100px"}.
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/f8d9661b-bcd3-4808-94f8-f8efa21b3ce7" width=50% height=50%>
 
 Right-Click
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/8345f5d4-a017-42ad-bd1d-d05d0fc8c09d){:height="100px" width="100px"}.
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/8345f5d4-a017-42ad-bd1d-d05d0fc8c09d" width=50% height=50%>
 
 Image Detection
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/da0f4a13-664d-48d6-8225-2854dda559ec){:height="100px" width="100px"}.
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/da0f4a13-664d-48d6-8225-2854dda559ec" width=50% height=50%>
 
 Palm Detection
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/daaf7ff5-c7a7-43ad-a3c5-4ae5d514ef22){:height="100px" width="100px"}.
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/daaf7ff5-c7a7-43ad-a3c5-4ae5d514ef22" width=50% height=50%>
 
 Zoom-in
 
-![image](https://github.com/Dishagupta224/test11/assets/75116292/17d7355d-42ec-4ad4-b59c-f4dfdb35a8e0){:height="100px" width="100px"}.
+<img src="https://github.com/Dishagupta224/test11/assets/75116292/17d7355d-42ec-4ad4-b59c-f4dfdb35a8e0" width=50% height=50%>
 
 Zoom-out
 
