@@ -57,45 +57,44 @@ Google Vision API vs OpenCV?
 •	Google Cloud Vision API rates 4.1/5 stars with 22 reviews. By contrast, OpenCV rates 4.5/5 stars with 39 reviews.
 
 <h3>Block Diagram</h3>
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/055306e6-045d-4cee-b6a8-8c7dd0631afd" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/d04c1cfa-b16d-4698-b95c-798e18a623d2" width=50% height=50%>
 
 <h3>Working Mechanism</h3>
 A framework called MediaPipe is used to create machine learning pipelines for processing time-series data, such as audio and video. The desktop/server, Android, iOS, and embedded devices like the Raspberry Pi and Jetson Nano all support this cross-platform framework. A graph is the name of the MediaPipe perception pipeline. Take the first option, Hands, as an example. We input a stream of photographs, and the output includes hand-rendered landmarks on the images.  The block diagram above represents the MediaPipe hand graph. A collection of programming functions called OpenCV (Open-Source Computer Vision) is primarily focused on real-time computer vision. It is a library used for image processing, to put it simply. It is mostly used for all operations involving images. Using OpenCV we are performing tasks like reading and writing on the images.
 
 <h3>Flow Chart</h3>
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/e683ecb9-134c-4a9b-81b4-29e5d306d14b" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/a0a11d20-62d8-497c-af50-4794319d350c" width=50% height=50%>
 
 
 <h3>Output Screenshots</h3>
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/3f4538b7-a0c4-463f-b4f2-4266e8276a8d" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/309475cd-a743-4aed-8fde-1ac749f6672d" width=50% height=50%>
 
 Hand Detection
 
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/5f18b631-4caa-4374-82bb-64ed250d3695" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/84373339-6e08-4a35-86d0-280352e04ad2" width=50% height=50%>
 
 Controlling Cursor
 
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/e44f4969-dc95-45c3-b7a8-dee903387b36" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/afea6d04-ebda-4489-9bda-20f9e53282b5" width=50% height=50%>
 
 Left-Click
 
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/f8d9661b-bcd3-4808-94f8-f8efa21b3ce7" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/82f22059-e656-4625-9a67-3fe54b170878" width=50% height=50%>
 
 Right-Click
 
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/8345f5d4-a017-42ad-bd1d-d05d0fc8c09d" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/515a317e-2953-4ede-a797-52c738861659" width=50% height=50%>
 
 Image Detection
 
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/da0f4a13-664d-48d6-8225-2854dda559ec" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/58d95e11-07fb-44fb-a02b-fc1e33519133)" width=50% height=50%>
 
 Palm Detection
 
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/daaf7ff5-c7a7-43ad-a3c5-4ae5d514ef22" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/feeb81c9-be7a-46b5-af96-a6f130d88849" width=50% height=50%>
 
 Zoom-in
 
-<img src="https://github.com/Dishagupta224/test11/assets/75116292/17d7355d-42ec-4ad4-b59c-f4dfdb35a8e0" width=50% height=50%>
+<img src="https://github.com/Dishagupta224/Touchless_controls/assets/75116292/11090ea8-dc26-4bf7-aa6b-7848cb2ed6c2" width=50% height=50%>
 
 Zoom-out
-
